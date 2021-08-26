@@ -4,8 +4,11 @@
 }
 
 .input {
+    border: none;
+    border-radius: 0;
     width: 80%;
     padding: 5%;
+    font-size: 1.2em;
 }
 
 input:focus, textarea:focus, select:focus{
@@ -13,9 +16,12 @@ input:focus, textarea:focus, select:focus{
 }
 
 .sendButton {
+    color: #fff !important;
     text-transform: uppercase;
+    text-decoration: none;
     background: #2979ff;
     padding: 20px;
     display: inline-block;
+    border: none;
     width: 20%;
 }

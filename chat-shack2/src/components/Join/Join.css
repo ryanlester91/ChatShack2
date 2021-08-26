@@ -7,8 +7,12 @@
     height: 100vh;
     align-items: center;
     /*background-color: #1A1A1D;*/
-    background-color: #332244;
+    /*background-color: #332244;*/
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+            radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+            
     /*background-image: url("./images/cyberlook.jpg");*/
+    /*background-image:url("./images/glove-hands.jpg");*/
 }
 
 .joinInnerContainer {
